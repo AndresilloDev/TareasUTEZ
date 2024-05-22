@@ -17,7 +17,6 @@ const nextImage = () => {
     index = (index + 1) % images.length;
     showImage(index);
 };
-
 back.addEventListener("click", previousImage);
 next.addEventListener("click", nextImage);
 
